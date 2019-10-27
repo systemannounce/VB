@@ -222,155 +222,305 @@ End If
 End Sub
 
 Private Sub Command10_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "0"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "0"
+
 End If
+
 End Sub
+
 
 Private Sub Command11_Click()
+
 Text1 = ""
+
 Text2 = ""
+
 Text3 = ""
+
 Frame1 = ""
+
 Frame2 = "First"
+
 Frame3 = ""
+
 End Sub
+
+
 
 Private Sub Command12_Click()
+
 If Val(Text2) = 0 And Frame3 = "4" Then
+
 Dim a As Integer
+
 a = MsgBox("除数不能为0", 5 + 16 + 0 + 0, WRONG)
+
 End If
+
 If a = 4 Then
+
 Text1 = ""
+
 Text2 = ""
+
 Text3 = ""
+
 Frame1 = ""
+
 Frame2 = "First"
+
 Frame3 = ""
+
 End If
+
 If a = 2 Then
+
 End
+
 End If
+
 If Frame3 = "1" Then
+
 Text3 = Val(Text1) + Val(Text2)
+
 End If
+
 If Frame3 = "2" Then
+
 Text3 = Val(Text1) - Val(Text2)
+
 End If
+
 If Frame3 = "3" Then
+
 Text3 = Val(Text1) * Val(Text2)
+
 End If
+
 If Frame3 = "4" Then
+
 Text3 = Val(Text1) / Val(Text2)
+
 End If
+
 End Sub
+
+
 
 Private Sub Command13_Click()
+
 Frame1 = "+"
+
 Frame2 = "Second"
+
 Frame3 = "1"
+
 End Sub
+
+
 
 Private Sub Command14_Click()
+
 Frame1 = "-"
+
 Frame2 = "Second"
+
 Frame3 = "2"
+
 End Sub
+
+
 
 Private Sub Command15_Click()
+
 Frame1 = "*"
+
 Frame2 = "Second"
+
 Frame3 = "3"
+
 End Sub
+
+
 
 Private Sub Command16_Click()
+
 Frame1 = "/"
+
 Frame2 = "Second"
+
 Frame3 = "4"
+
 End Sub
+
+
 
 Private Sub Command17_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "."
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "."
+
 End If
+
 End Sub
+
+
 
 Private Sub Command2_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "2"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "2"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command3_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "3"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "3"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command4_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "4"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "4"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command5_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "5"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "5"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command6_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "6"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "6"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command7_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "7"
+
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "7"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command8_Click()
+
 If Frame2 = "First" Then
+
 Text1 = Text1 + "8"
+
 End If
+
 If Frame2 = "Second" Then
+
 Text2 = Text2 + "8"
+
 End If
+
 End Sub
+
+
 
 Private Sub Command9_Click()
-If Frame2 = "First" Then
-Text1 = Text1 + "9"
-End If
-If Frame2 = "Second" Then
-Text2 = Text2 + "9"
-End If
-End Sub
 
+If Frame2 = "First" Then
+
+Text1 = Text1 + "9"
+
+End If
+
+If Frame2 = "Second" Then
+
+Text2 = Text2 + "9"
+
+End If
+
+End Sub
